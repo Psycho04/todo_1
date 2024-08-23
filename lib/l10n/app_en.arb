@@ -1,0 +1,15 @@
+{
+    "hello": "Hello",
+    "signIn": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "dontHaveAnAccount": "Don`t have account?",
+    "signUp": "sign up",
+    "userName": "User Name",
+    "alreadyHaveAnAccount": "already have account?",
+    "logIn": "Log in",
+    "toDoList": "To Do List",
+    "settings": "Settings",
+    "language": "Language",
+    "theme": "Theme"
+}

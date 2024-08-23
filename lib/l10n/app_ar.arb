@@ -1,0 +1,15 @@
+{
+    "hello": "مرحبا",
+    "signIn": "تسجيل الدخول",
+    "email": "العربية",
+    "password": "كلمة المرور",
+    "dontHaveAnAccount": "ليس لديك حساب؟",
+    "signUp": "التسجيل",
+    "userName": "اسم المستخدم",
+    "alreadyHaveAnAccount": "لديك حساب بالفعل؟",
+    "logIn": "تسجيل الدخول",
+    "toDoList": "قائمة المهام",
+    "settings": "الاعدادات",
+    "language": "اللغة",
+    "theme": "الوضع"
+}
