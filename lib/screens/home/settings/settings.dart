@@ -5,6 +5,7 @@ import 'package:todo_1/providers/language_provider.dart';
 import 'package:todo_1/providers/theme_provider.dart';
 import 'package:todo_1/widgets/calender_widget.dart';
 import 'package:todo_1/widgets/header_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Settings extends StatefulWidget {
   const Settings({super.key});
@@ -23,7 +24,7 @@ class _SettingsState extends State<Settings> {
       children: [
         Stack(
           children: [
-            HeaderWidget(title: 'Settings'),
+            HeaderWidget(title: AppLocalizations.of(context)!.settings),
             const CalenderWidget(),
           ],
         ),
@@ -35,7 +36,7 @@ class _SettingsState extends State<Settings> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Language',
+                AppLocalizations.of(context)!.language,
                 style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w700,
@@ -82,7 +83,7 @@ class _SettingsState extends State<Settings> {
                 ),
               ),
               SizedBox(height: MediaQuery.of(context).size.height * 0.03),
-              Text('Theme',
+              Text(AppLocalizations.of(context)!.theme,
                   style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.w700,

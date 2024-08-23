@@ -4,6 +4,7 @@ import 'package:todo_1/providers/list_provider.dart';
 import 'package:todo_1/widgets/calender_widget.dart';
 import 'package:todo_1/widgets/header_widget.dart';
 import 'package:todo_1/widgets/todo_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class Menu extends StatefulWidget {
   const Menu({super.key});
@@ -29,7 +30,7 @@ class _MenuState extends State<Menu> {
       children: [
         Stack(
           children: [
-            HeaderWidget(title: 'To Do List'),
+            HeaderWidget(title: AppLocalizations.of(context)!.toDoList),
             const CalenderWidget(),
           ],
         ),
